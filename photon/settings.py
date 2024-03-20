@@ -36,6 +36,7 @@ INSTALLED_APPS = [
     'crispy_bootstrap5',
     'django_summernote',
     'printblog',
+    'gallery',
 ]
 
 SITE_ID = 1
