@@ -13,7 +13,7 @@
     <title>Snoodyk 3D Prints</title>
     <meta name="viewport" content="width=device-width, initial-scale=1" />
     <link rel="shortcut icon" type="image/png"
-        href="https://res.cloudinary.com/djvqvtu86/image/upload/v1710340918/Snoodyk%20Prints/android-chrome-192x192_wlru4a.png">
+        href="https://res.cloudinary.com/djvqvtu86/image/upload/v1711020318/Printed%20stuff/android-chrome-192x192_chzqpl.png">
     <!-- Google Fonts CSS -->
     <link rel="preconnect" href="https://fonts.gstatic.com">
     <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap" rel="stylesheet">
@@ -26,7 +26,6 @@
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/css/bootstrap.min.css" rel="stylesheet"
         integrity="sha384-+0n0xVW2eSR5OomGNYDnhzAbDsOXxcvSN1TPprVMTNDbiYZCxYbOOl7+AMvyTG2x" crossorigin="anonymous">
 
-
     <!-- Java -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/lightbox2/2.8.2/css/lightbox.min.css">
 
@@ -38,7 +37,7 @@
     <nav class="navbar navbar-expand-lg navbar-light bg-primary" style="border-bottom: 2px solid black">
         <div class="container-fluid">
             <a class="navbar-brand" href="{% url 'home' %}"><img
-                    src="https://res.cloudinary.com/djvqvtu86/image/upload/v1710340260/Snoodyk%20Prints/Snoodyk_Printing.jpg"
+                    src="https://res.cloudinary.com/djvqvtu86/image/upload/v1711021931/Printed%20stuff/android-chrome-512x512_tkb91m.webp"
                     alt="Logo" style="height: 75px; width: auto;">
             </a>
             <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarText"
@@ -54,13 +53,13 @@
                         </a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link {% if request.path == home_url %}active{% endif %}" aria-current="page"
-                            href="gallery">
+                        <a class="nav-link {% if request.path == gallery_url %}active{% endif %}" aria-current="page"
+                            href="/gallery">
                             <p style="color:black;font-size:25px;">Gallery</p>
                         </a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link {% if request.path == home_url %}active{% endif %}" aria-current="page"
+                        <a class="nav-link {% if request.path == about_url %}active{% endif %}" aria-current="page"
                             href="#">
                             <p style="color:black;font-size:25px;">About</p>
                         </a>
