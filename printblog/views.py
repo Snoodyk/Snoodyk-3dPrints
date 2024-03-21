@@ -45,9 +45,7 @@ def post_detail(request, slug):
     )
     
 def comment_edit(request, slug, comment_id):
-    """
-    view to edit comments
-    """
+
     if request.method == "POST":
 
         queryset = Post.objects.filter(status=1)
