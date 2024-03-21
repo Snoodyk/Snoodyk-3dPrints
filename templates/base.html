@@ -14,7 +14,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1" />
     <link rel="shortcut icon" type="image/png"
         href="https://res.cloudinary.com/djvqvtu86/image/upload/v1711020318/Printed%20stuff/android-chrome-192x192_chzqpl.png">
-    <!-- Google Fonts CSS -->
+        <!-- Google Fonts CSS -->
     <link rel="preconnect" href="https://fonts.gstatic.com">
     <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css2?family=Lato:wght@300;700&display=swap" rel="stylesheet">
@@ -31,7 +31,7 @@
 
 </head>
 
-<body class="d-flex flex-column h-100 main-bg">
+<body class="d-flex flex-column h-100 main-bg" style="background-color:#0fa0ab;">
 
     <!-- Navigation -->
     <nav class="navbar navbar-expand-lg navbar-light bg-primary" style="border-bottom: 2px solid black">
@@ -49,19 +49,19 @@
                     <li class="nav-item">
                         <a class="nav-link {% if request.path == home_url %}active{% endif %}" aria-current="page"
                             href="{% url 'home' %}">
-                            <p style="color:black;font-size:25px;">Home</p>
+                            <p style="color:black;font-size:25px;">Home <i class="fa-solid fa-house"></i></p>
                         </a>
                     </li>
                     <li class="nav-item">
                         <a class="nav-link {% if request.path == gallery_url %}active{% endif %}" aria-current="page"
                             href="/gallery">
-                            <p style="color:black;font-size:25px;">Gallery</p>
+                            <p style="color:black;font-size:25px;">Gallery <i class="fa-solid fa-image"></i></p>
                         </a>
                     </li>
                     <li class="nav-item">
                         <a class="nav-link {% if request.path == about_url %}active{% endif %}" aria-current="page"
                             href="/about">
-                            <p style="color:black;font-size:25px;">About</p>
+                            <p style="color:black;font-size:25px;">About <i class="fa-solid fa-circle-question"></i></p>
                         </a>
                     </li>
                 </ul>
@@ -69,20 +69,20 @@
                 <li class="nav-item" style="list-style: none;">
                     <a class="nav-link {% if request.path == logout_url %}active{% endif %}" aria-current="page"
                         href="{% url 'account_logout' %}">
-                        <p style="color:black;font-size:25px;" ;>Logout</p>
+                        <p style="color:black;font-size:25px;" ;>Logout <i class="fa-solid fa-unlock"></i></p>
                     </a>
                 </li>
                 {% else %}
                 <li class="nav-item" style="list-style: none;">
                     <a class="nav-link {% if request.path == signup_url %}active{% endif %}" aria-current="page"
                         href="{% url 'account_signup' %}">
-                        <p style="color:black;font-size:25px;" ;>Register</p>
+                        <p style="color:black;font-size:25px;" ;>Register <i class="fa-solid fa-lock-open"></i></i></p>
                     </a>
                 </li>
                 <li class="nav-item" style="list-style: none;">
                     <a class="nav-link {% if request.path == login_url %}active{% endif %}" aria-current="page"
                         href="{% url 'account_login' %}">
-                        <p style="color:black;font-size:25px;" ;>Login</p>
+                        <p style="color:black;font-size:25px;" ;>Login <i class="fa-solid fa-key"></i></p>
                     </a>
                 </li>
                 {% endif %}

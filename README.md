@@ -1,110 +1,122 @@
-![CI logo](https://codeinstitute.s3.amazonaws.com/fullstack/ci_logo_small.png)
+# SNOODYK 3D PRINTS
 
-Welcome Nathan Snoodyk,
+- __Responsive Design__
 
-This is the Code Institute student template for Gitpod. We have preinstalled all of the tools you need to get started. It's perfectly ok to use this template as the basis for your project submissions.
+ Website is fully responsive to Phone, Tablet, Laptop, Desktop.
 
-You can safely delete this README.md file, or change it for your own project. Please do read it at least once, though! It contains some important information about Gitpod and the extensions we use. Some of this information has been updated since the video content was created. The last update to this file was: **September 1, 2021**
+![Responsice Mockup](https://github.com/Snoodyk/Brushes-and-Bytes/blob/main/assets/images/amiresponsive%20image.png)
 
-## Gitpod Reminders
 
-To run a frontend (HTML, CSS, Javascript only) application in Gitpod, in the terminal, type:
 
-`python3 -m http.server`
+## Snoodyk 3d Prints
 
-A blue button should appear to click: _Make Public_,
+- __The Home page ___
 
-Another blue button should appear to click: _Open Browser_.
+  - blurb
+![Home Page](#)
 
-To run a backend Python file, type `python3 app.py`, if your Python file is named `app.py` of course.
 
-A blue button should appear to click: _Make Public_,
 
-Another blue button should appear to click: _Open Browser_.
+- __Gallery__
 
-In Gitpod you have superuser security privileges by default. Therefore you do not need to use the `sudo` (superuser do) command in the bash terminal in any of the lessons.
+  - blurb 
+  - blurb 
 
-To log into the Heroku toolbelt CLI:
+![Gallery](#)
 
-1. Log in to your Heroku account and go to *Account Settings* in the menu under your avatar.
-2. Scroll down to the *API Key* and click *Reveal*
-3. Copy the key
-4. In Gitpod, from the terminal, run `heroku_config`
-5. Paste in your API key when asked
+- __About__
 
-You can now use the `heroku` CLI program - try running `heroku apps` to confirm it works. This API key is unique and private to you so do not share it. If you accidentally make it public then you can create a new one with _Regenerate API Key_.
+  - This page allows user to read about what the site offers. 
 
-------
+![About](#)
 
-## Release History
 
-We continually tweak and adjust this template to help give you the best experience. Here is the version history:
+## Features
 
-**September 20 2023:** Update Python version to 3.9.17.
+- __Blog with comment function__
 
-**September 1 2021:** Remove `PGHOSTADDR` environment variable.
+  - Blog about 3d printing that has full CRUD functionality. Can make comments, delete comments and edit comments made by yourself.
 
-**July 19 2021:** Remove `font_fix` script now that the terminal font issue is fixed.
+  - Comment Function
+![Blog comment function](https://res.cloudinary.com/djvqvtu86/image/upload/v1711036716/readme/comments_ckwxqy.png)
+  - Comment Edit Function
+![Comment edit function](https://res.cloudinary.com/djvqvtu86/image/upload/v1711036835/readme/Edit_dibl2j.png)
+  - Comment Delete Function ![Comment Delete Function](https://res.cloudinary.com/djvqvtu86/image/upload/v1711036835/readme/delete_dikqf4.png)
 
-**July 2 2021:** Remove extensions that are not available in Open VSX.
+## Testing 
 
-**June 30 2021:** Combined the P4 and P5 templates into one file, added the uptime script. See the FAQ at the end of this file.
+Testing blurb.
 
-**June 10 2021:** Added: `font_fix` script and alias to fix the Terminal font issue
 
-**May 10 2021:** Added `heroku_config` script to allow Heroku API key to be stored as an environment variable.
+Our project on Mobile
+![ResponsiveonMob](#)
 
-**April 7 2021:** Upgraded the template for VS Code instead of Theia.
+Our project on Tablet
+![ResponsiveonTab](#)
 
-**October 21 2020:** Versions of the HTMLHint, Prettier, Bootstrap4 CDN and Auto Close extensions updated. The Python extension needs to stay the same version for now.
+Our project on Laptop
+![ResponsiveonLap](#)
 
-**October 08 2020:** Additional large Gitpod files (`core.mongo*` and `core.python*`) are now hidden in the Explorer, and have been added to the `.gitignore` by default.
 
-**September 22 2020:** Gitpod occasionally creates large `core.Microsoft` files. These are now hidden in the Explorer. A `.gitignore` file has been created to make sure these files will not be committed, along with other common files.
+### Validator Testing 
 
-**April 16 2020:** The template now automatically installs MySQL instead of relying on the Gitpod MySQL image. The message about a Python linter not being installed has been dealt with, and the set-up files are now hidden in the Gitpod file explorer.
+- HTML
+  - No errors were returned when passing through W3C validator [W3C validator](#)
+- CSS
+  - No errors were found when passing through  [validator](#)
 
-**April 13 2020:** Added the _Prettier_ code beautifier extension instead of the code formatter built-in to Gitpod.
+### Fixed Bugs
+- Had an error with URL not connecting to the right URL when the header buttons where use on pages other then the index page.
+![URL Error](https://res.cloudinary.com/djvqvtu86/image/upload/v1711037420/readme/URL_Bug_qphlrj.png)
+- Bug took awhile to fix but found the issue with the code 
+![URL Bug Found](https://res.cloudinary.com/djvqvtu86/image/upload/v1711037668/readme/missing_slash_fumbcc.png)
+- Issue was caused by missing a / at the start of href="/gallery"
 
-**February 2020:** The initialisation files now _do not_ auto-delete. They will remain in your project. You can safely ignore them. They just make sure that your workspace is configured correctly each time you open it. It will also prevent the Gitpod configuration popup from appearing.
 
-**December 2019:** Added Eventyret's Bootstrap 4 extension. Type `!bscdn` in a HTML file to add the Bootstrap boilerplate. Check out the <a href="https://github.com/Eventyret/vscode-bcdn" target="_blank">README.md file at the official repo</a> for more options.
+### Unfixed Bugs
 
-------
+None.
+ 
 
-## FAQ about the uptime script
+## Deployment
 
-**Why have you added this script?**
+We deployed the project to GitHub cloud.
 
-It will help us to calculate how many running workspaces there are at any one time, which greatly helps us with cost and capacity planning. It will help us decide on the future direction of our cloud-based IDE strategy.
+- The site was deployed to GitHub pages. The steps to deploy are as follows: 
+  - In the GitHub repository, navigate to the Settings tab 
+  - From the source section drop-down menu, select the Master Branch
+  - Once the main branch has been selected, the page will be automatically be refreshed with a detailed ribbon display to indicate the successful deployment. 
 
-**How will this affect me?**
+The live link can be found here - https://snoodyk.github.io/Brushes-and-Bytes/
 
-For everyday usage of Gitpod, it doesn’t have any effect at all. The script only captures the following data:
+## Credits 
 
-- An ID that is randomly generated each time the workspace is started.
-- The current date and time
-- The workspace status of “started” or “running”, which is sent every 5 minutes.
+Main structure of page reference used from love running project template. Also used repositories and tutorials from GITHUB love running template
+youtube tutorials
+Google search.from 
+https://www.craiyon.com/   ai art
+https://fontawesome.com/
+https://www.w3schools.com
 
-It is not possible for us or anyone else to trace the random ID back to an individual, and no personal data is being captured. It will not slow down the workspace or affect your work.
 
-**So….?**
+### Content 
 
-We want to tell you this so that we are being completely transparent about the data we collect and what we do with it.
+- The text for the Homepage was taken from ChatGPT
+- The text for the Gallery page was taken from https://www.craiyon.com/   ai art
+- The text for the About page was made up.
+- The text for the Contact page was taken from https://www.w3schools.com
+- The icons in the footer were taken from [Font Awesome](https://fontawesome.com/)
 
-**Can I opt out?**
+### Media
 
-Yes, you can. Since no personally identifiable information is being captured, we'd appreciate it if you let the script run; however if you are unhappy with the idea, simply run the following commands from the terminal window after creating the workspace, and this will remove the uptime script:
+- The photos used on the Home and Contact pages are from https://www.craiyon.com/   ai art and https://www.w3schools.com/
+- The images used for the Gallery page were taken from https://www.craiyon.com/   ai art
 
-```
-pkill uptime.sh
-rm .vscode/uptime.sh
-```
+## User Stories
 
-**Anything more?**
-
-Yes! We'd strongly encourage you to look at the source code of the `uptime.sh` file so that you know what it's doing. As future software developers, it will be great practice to see how these shell scripts work.
-
----
-
-Happy coding!
+- As a User, I want to select an option from the nav bar, so I can easily access the other pages on the site.
+- As a User, I want to see the photo on the home page, so I instantly know that this is an art portfolio website.
+- As a User, I want to click the icons from the footer, so I can view the Artist’s social media.
+- As a User, I want to view the photo gallery, so I can admire the Artist’s work.
+- As a User, I want to read the About section, so I can learn more about the Artist.
+- As a User, I want to view the Artist’s contact details, so I can get in touch with the Artist to learn more, and make a purchase.
