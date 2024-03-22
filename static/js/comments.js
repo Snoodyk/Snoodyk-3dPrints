@@ -23,6 +23,7 @@ for (let button of editButtons) {
 for (let button of deleteButtons) {
   button.addEventListener("click", (e) => {
     let commentId = e.target.getAttribute("data-comment_id");
+    deleteConfirm.setAttribute("data-comment_id", commentId);
     deleteConfirm.href = `delete_comment/${commentId}`;
     deleteModal.show();
   });

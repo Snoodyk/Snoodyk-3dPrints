@@ -10,7 +10,7 @@ TEMPLATES_DIR = os.path.join(BASE_DIR, 'templates')
 
 SECRET_KEY = os.environ.get("SECRET_KEY")
 
-DEBUG = True
+DEBUG = False
 ALLOWED_HOSTS = ['8000-snoodyk-snoodyk3dprints-bvv9b66q070.ws-eu110.gitpod.io','.herokuapp.com']
 
 INSTALLED_APPS = [
