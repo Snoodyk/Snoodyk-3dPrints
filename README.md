@@ -1,34 +1,27 @@
 # SNOODYK 3D PRINTS
-
-- __Responsive Design__
-
- Website is fully responsive to Phone, Tablet, Laptop, Desktop.
-
-![Responsice Mockup](https://github.com/Snoodyk/Brushes-and-Bytes/blob/main/assets/images/amiresponsive%20image.png)
+- __Welcome to my project__
+Hello, Welcome to my code institute project for my bootcamp course. The site is a simple blog and gallery with comment CRUD funcionality. I was going to add more CRUD to gallery but could not make it work in time. 
 
 
 
-## Snoodyk 3d Prints
+- __The Home page__ 
 
-- __The Home page ___
-
-  - blurb
-![Home Page](#)
+  - Home page brings you into the blogs so you can read about 3d printing. The header has the gallery and about page.
+![Home Page](https://res.cloudinary.com/djvqvtu86/image/upload/v1711197585/readme/homepage_dbuojz.png)
 
 
 
 - __Gallery__
 
-  - blurb 
-  - blurb 
+  - Gallery which will add CRUD functionality to in future. Did not have enough time to figure out this time around.
 
-![Gallery](#)
+![Gallery](https://res.cloudinary.com/djvqvtu86/image/upload/v1711197572/readme/gallery_ouzj8q.png)
 
 - __About__
 
-  - This page allows user to read about what the site offers. 
+  - This page allows user to read about what the site offers and why it has been created. 
 
-![About](#)
+![About](https://res.cloudinary.com/djvqvtu86/image/upload/v1711197583/readme/about_wcitpu.png)
 
 
 ## Features
@@ -43,27 +36,19 @@
 ![Comment edit function](https://res.cloudinary.com/djvqvtu86/image/upload/v1711036835/readme/Edit_dibl2j.png)
   - Comment Delete Function ![Comment Delete Function](https://res.cloudinary.com/djvqvtu86/image/upload/v1711036835/readme/delete_dikqf4.png)
 
-## Testing 
+- __Responsive Design__
 
-Testing blurb.
+ Website is fully responsive to Phone, Tablet, Laptop and Desktop.
 
-
-Our project on Mobile
-![ResponsiveonMob](#)
-
-Our project on Tablet
-![ResponsiveonTab](#)
-
-Our project on Laptop
-![ResponsiveonLap](#)
-
+![Responsice phone](https://res.cloudinary.com/djvqvtu86/image/upload/v1711199002/readme/responsive_phone_j33qux.png)
+![Responsice tablet](https://res.cloudinary.com/djvqvtu86/image/upload/v1711199008/readme/responsive_tablet_pjtkro.png)
+![Responsice laptop](https://res.cloudinary.com/djvqvtu86/image/upload/v1711198958/readme/responsive_laptop_xpvjpa.png)
 
 ### Validator Testing 
 
 - HTML
-  - No errors were returned when passing through W3C validator [W3C validator](#)
-- CSS
-  - No errors were found when passing through  [validator](#)
+  - Minor errors in validator with code but when code removed would destroy website. Left code in for posible future fixs. [W3C validator](https://res.cloudinary.com/djvqvtu86/image/upload/v1711197981/readme/validation_h4bfos.png)
+
 
 ### Fixed Bugs
 - Had an error with URL not connecting to the right URL when the header buttons where use on pages other then the index page.
@@ -75,48 +60,25 @@ Our project on Laptop
 
 ### Unfixed Bugs
 
-None.
+- When deleting comment for CRUD functionality it will sometimes fail. Will need to go back a page and press delete button again. ![Delete bug](https://res.cloudinary.com/djvqvtu86/image/upload/v1711197574/readme/delete_error_pziddw.png)
+- When pressed error button it might not work the first time. Clicking away from error button and back to it should make error button work. 
  
 
 ## Deployment
 
-We deployed the project to GitHub cloud.
+The project was deployed to Heroku.
+The live link can be found here - https://snoodyk-print-blog-d7b5287bf8d8.herokuapp.com/
 
-- The site was deployed to GitHub pages. The steps to deploy are as follows: 
-  - In the GitHub repository, navigate to the Settings tab 
-  - From the source section drop-down menu, select the Master Branch
-  - Once the main branch has been selected, the page will be automatically be refreshed with a detailed ribbon display to indicate the successful deployment. 
+## Wireframes
+Worked to the best I could off wireframes. Project looks did change as went through development.
 
-The live link can be found here - https://snoodyk.github.io/Brushes-and-Bytes/
+- ![About page wireframe](https://res.cloudinary.com/djvqvtu86/image/upload/v1711198338/readme/about_Wireframe_hehtvv.png)
+- ![Gallery page wireframe](https://res.cloudinary.com/djvqvtu86/image/upload/v1711198337/readme/gallery_wireframe_ro8h9a.png)
+- ![Sign up page wireframe](https://res.cloudinary.com/djvqvtu86/image/upload/v1711198339/readme/signup_wireframe_phvu8u.png)
+- ![Login page wireframe](https://res.cloudinary.com/djvqvtu86/image/upload/v1711198338/readme/login_wireframe_jpc3cj.png)
 
 ## Credits 
-
-Main structure of page reference used from love running project template. Also used repositories and tutorials from GITHUB love running template
-youtube tutorials
-Google search.from 
-https://www.craiyon.com/   ai art
-https://fontawesome.com/
-https://www.w3schools.com
-
-
-### Content 
-
-- The text for the Homepage was taken from ChatGPT
-- The text for the Gallery page was taken from https://www.craiyon.com/   ai art
-- The text for the About page was made up.
-- The text for the Contact page was taken from https://www.w3schools.com
-- The icons in the footer were taken from [Font Awesome](https://fontawesome.com/)
-
-### Media
-
-- The photos used on the Home and Contact pages are from https://www.craiyon.com/   ai art and https://www.w3schools.com/
-- The images used for the Gallery page were taken from https://www.craiyon.com/   ai art
-
-## User Stories
-
-- As a User, I want to select an option from the nav bar, so I can easily access the other pages on the site.
-- As a User, I want to see the photo on the home page, so I instantly know that this is an art portfolio website.
-- As a User, I want to click the icons from the footer, so I can view the Artist’s social media.
-- As a User, I want to view the photo gallery, so I can admire the Artist’s work.
-- As a User, I want to read the About section, so I can learn more about the Artist.
-- As a User, I want to view the Artist’s contact details, so I can get in touch with the Artist to learn more, and make a purchase.
+- https://fontawesome.com/ for icons.
+- https://www.w3schools.com for validation.
+- https://chatgpt.com for blog blurbs.
+- Code institute Django blog for help with code of blog.
